@@ -1,0 +1,22 @@
+{
+  "name": "@lavacharts/png-server",
+  "version": "1.0.0",
+  "description": "Using Lava.js as a service to provide PNGs of charts as a data-stream.",
+  "main": "index.js",
+  "scripts": {
+    "server": "node dist/index.js",
+    "build": "babel index.js -o dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Hill",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "nightmare": "^2.10.0"
+  }
+}
